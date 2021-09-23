@@ -15,13 +15,18 @@ Participants are encouraged to make their code public with their submission.
 
 ## Baseline
 In order to help participants in their submission, to process videos, annotation files and deep learning techniques, we provide a baseline in this git which is formated to process the provided data by the task organizers.
+
 The method is simple and is based on the following submission using only RGB data:
+
 Pierre-Etienne Martin, Jenny Benois-Pineau, Boris Mansencal, Renaud Péteri, Julien Morlier. Siamese Spatio-temporal convolutional neural network for stroke classification in Table Tennis games. MediaEval 2019 Workshop, Oct 2019, Sophia Antipolis, France. [https://hal.archives-ouvertes.fr/hal-02937668](⟨hal-02937668⟩) - [Paper here](https://hal.archives-ouvertes.fr/hal-02937668/document)
 
 The data processing is trivial. The rgb frames are resized to [120,120] and stacked together to form tensors of length 98 following the annotation boundaries (based on begin temporal boundary) and are fed to the network.
+
 The training method uses nesterov momentum over a fizxed amount of epoch.
+
 The classification and detection task are dealt with similarly: we consider 20 classes for the classification task and 2 classes for the detection task. Negative samples are extracted for the detection class and negative proposals are build on the test set.
 Training method is similar too.
+
 This repository is not meant to lead to good performance but to provide a skeleton of a method to help participant. The workflow is based on OpenCV and PyTorch. We encourage participants to fork this repository and share their contributions. Based method (if easily reproducible) may be used as a baseline for next year.
 
 Thank you for your participation.
