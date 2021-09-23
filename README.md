@@ -22,7 +22,7 @@ Pierre-Etienne Martin, Jenny Benois-Pineau, Boris Mansencal, Renaud Péteri, Jul
 
 The data processing is trivial. The rgb frames are resized to [120,120] and stacked together to form tensors of length 98 following the annotation boundaries (based on begin temporal boundary) and are fed to the network.
 
-The training method uses nesterov momentum over a fizxed amount of epoch.
+The training method uses nesterov momentum over a fixed amount of epoch.
 
 The classification and detection task are dealt with similarly: we consider 20 classes for the classification task and 2 classes for the detection task. Negative samples are extracted for the detection class and negative proposals are build on the test set.
 Training method is similar too.
