@@ -1,5 +1,5 @@
 <!-- # please respect the structure below-->
-*See the [MediaEval 2021 webpage](https://multimediaeval.github.io/editions/2021/) for information on how to register and participate.*
+*See the [MediaEval 2021 webpage](https://multimediaeval.github.io/editions/2021/) for information on how to register and participate.* <br>
 *See the [Sport Task MediaEval 2021 webpage](https://multimediaeval.github.io/editions/2021/tasks/sportsvideo/) for information on the task.*
 
 ## Introduction
