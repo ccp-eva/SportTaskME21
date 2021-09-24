@@ -20,7 +20,9 @@ The method is simple and is based on the following submission using only RGB dat
 
 Pierre-Etienne Martin, Jenny Benois-Pineau, Boris Mansencal, Renaud Péteri, Julien Morlier. Siamese Spatio-temporal convolutional neural network for stroke classification in Table Tennis games. MediaEval 2019 Workshop, Oct 2019, Sophia Antipolis, France. [⟨hal-02937668⟩](https://hal.archives-ouvertes.fr/hal-02937668) - [Paper here](https://hal.archives-ouvertes.fr/hal-02937668/document)
 
-The data processing is trivial. The rgb frames are resized to [120,120] and stacked together to form tensors of length 98 following the annotation boundaries (based on begin temporal boundary) and are fed to the network.
+The data processing is trivial. The rgb frames are resized to [120,120] and stacked together to form tensors of length 98 following the annotation boundaries (based on begin temporal boundary) and are fed to the network:
+
+![](RGB-STCNN-Model.pdf)
 
 The training method uses nesterov momentum over a fixed amount of epoch.
 
