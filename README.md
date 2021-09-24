@@ -22,7 +22,7 @@ Pierre-Etienne Martin, Jenny Benois-Pineau, Boris Mansencal, Renaud Péteri, Jul
 
 The data processing is trivial. The rgb frames are resized to [120,120] and stacked together to form tensors of length 98 following the annotation boundaries (based on begin temporal boundary) and are fed to the network:
 
-![](RGB-STCNN-Model.pdf)
+![](RGB-STCNN-Model.png)
 
 The training method uses nesterov momentum over a fixed amount of epoch.
 
