@@ -29,6 +29,12 @@ The training method uses nesterov momentum over a fixed amount of epoch.
 The classification and detection task are dealt with similarly: we consider 20 classes for the classification task and 2 classes for the detection task. Negative samples are extracted for the detection class and negative proposals are build on the test set.
 Training method is similar too.
 
-This repository is not meant to lead to good performance but to provide a skeleton of a method to help the participants. The workflow is based on OpenCV and PyTorch. The requierment are provided in the [requierments.txt file](requirements.txt). We encourage participants to fork this repository and share their contributions. Best method (if easily reproducible) may be used as a baseline for next year.
+This repository is not meant to lead to good performance but to provide a skeleton of a method to help the participants. The workflow is based on OpenCV and PyTorch. The requierment are provided in the [requierments.txt file](requirements.txt). Use:
+
+``` bash
+python3 main.py
+```
+
+main.py shall be adapted according to your tree. We encourage participants to fork this repository and share their contributions. Best method (if easily reproducible) may be used as a baseline for next year.
 
 Thank you for your participation.
