@@ -37,6 +37,4 @@ python3 main.py
 
 main.py shall be adapted according to your tree. We encourage participants to fork this repository and share their contributions. Best method (if easily reproducible) may be used as a baseline for next year.
 
-In this repo we also provide the python code that will be used for [checking](verif_submission.py) and [evaluating](evaluation.py) the participants' runs.
-
 Thank you for your participation.
